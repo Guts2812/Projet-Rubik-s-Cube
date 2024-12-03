@@ -1,10 +1,10 @@
-Description
+Description : 
 This project displays and animates the movements of a Rubik's Cube in 3D.
 The movements are read from a text file (file.txt), and an animation is generated using matplotlib. 
 The program also compiles a C file to generate these movements.
 
 
-Prerequisites
+Prerequisites : 
 To use this code, you must have the C code written by John.
 This C code handles the movements of a 2x2x2 Rubik's Cube and generates the movement instructions. 
 It is crucial that you have this C file, as the program relies on it to function correctly.
@@ -18,7 +18,7 @@ In addition, you will need Python 3.x with the following libraries:Python 3.x wi
   
 To install these libraries, use the following command : pip install matplotlib  # Example
 
-Usage
+Usage : 
 Run the Python script: python3 cube_animation.py
 
 The cube animation will be displayed, and to save each step, uncomment the code in the update_cube() function at line 50.
